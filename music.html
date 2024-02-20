@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="music.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="music">
+            <nav>
+                <div id="back">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <div id="menu">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+            <img src="https://images.genius.com/babae63a865a158ef212091fc3e5d21d.1000x1000x1.jpg" alt="">
+            <h1>Mera Bhai</h1>
+            <p>Divine</p>
+            <audio  src="Mera Bhai - DjPunjab.Com.Se.mp3" id="song"></audio>
+            <input type="range" value="0" id="progress">
+            <div id="controls">
+                <div><i class="ri-skip-back-mini-fill"></i></div>
+                <div onclick="playPause()"><i class="ri-play-fill" id="ctrlIcon"></i></div>
+                <div><i class="ri-skip-right-fill"></i></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
