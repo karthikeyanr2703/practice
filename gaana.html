@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaana</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="gaana.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="player">
+            <h4>Playing music 1 of 3</h4>
+            <img src="https://i1.sndcdn.com/avatars-000362332943-ze54en-t500x500.jpg" alt="" id="avatar">
+            <h1>Music</h1>
+            <p>Ritviz</p>
+            <div id="range">
+                <div id="currentTime">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="range" id="duration">
+                <div id="totalDuration">00:00</div>
+            </div>
+            <div id="volume">
+          
+                <i class="ri-volume-down-fill"></i>
+                <input type="range" min="1" max="100" value="90" class="range" id="volumeRange">
+                <i class="ri-volume-up-fill"></i>
+             
+
+
+            </div>
+            <div id="buttons">
+                <i class="ri-skip-back-fill"></i>
+                <i class="ri-play-circle-fill"></i>
+                <i class="ri-skip-forward-fill"></i>
+            </div>
+            <div id="wave">
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+                <span class="stroke"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="gaana.js"></script>
+</body>
+
+</html>
