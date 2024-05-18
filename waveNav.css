@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Italiana", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#nav{
+    width: 20%;
+    height:calc(58.67px / 2)  ;
+    /* background-color: palevioletred; */
+}
+#link{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
